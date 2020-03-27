@@ -1,0 +1,11 @@
+.movieContainer{display: flex;flex-direction: column;padding: 10px;
+	            margin:0px 15px; }
+.movieImg{ }	            
+.movieContainer > div {background-image: linear-gradient(to right,#1b9bff,#1b9bff,#0082e6,#1080e8,#1b9bff,#1b9bff);margin-bottom:15px;
+	                   display: flex;padding: 5px 10px;border-radius: 4px;}
+.inline{display: flex;flex-direction: column;justify-content: center;padding: 0px 20px; color: white;}
+.inline > div{margin: 10px 0px;letter-spacing: 1px;font-family: sans-serif;font-size: 20px;}
+.bookButton{text-align:right;  }
+.bookButton a{color: white;font-size: 25px;padding: 10px;border-radius: 4px;}
+.movieTitle{ color: #c0c1c2; font-weight: bold;}	
+a:hover{background-color: white; transition: .2.5s;color: #2c3e50;} 

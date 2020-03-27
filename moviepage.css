@@ -1,0 +1,10 @@
+
+       
+.movInfo{background-image: url("moviePosters/blur.jfif");background-repeat: no-repeat;background-size: 100%;color: white; font-family: sans-serif;letter-spacing: 1px;padding: 55px 0px 10px 0px; padding-left: 25%}
+.movTitle{font-size: 25px;font-weight: bold;}
+.lang, .genre, .releaseDate, .time{font-size: 15px;margin-top: 3px;}
+
+img {position: absolute; left: 130px; top: 110px; z-index: 1; width: 220px;height: 260px;}
+.rating{margin-left: 25%;margin-top: 25px;font-size: 20px; display: inline-flex;color: white;letter-spacing: 1px;}
+.rate{color: white;padding-right: 15px;letter-spacing: 1px;}
+.checked {color: orange;}
