@@ -6,19 +6,19 @@ body{
 	font-family:sans-serif;background-image:linear-gradient(to right,#000000,#182628,#000000); 
 }
 nav{
-	background-color:#0082e6;height: 60px;width: 100%; position: sticky;top: 0rem;margin-bottom: 10px;
+	background-color:#0082e6;height: 60px;width: 100%; position: sticky;top: 0rem;margin-bottom: 10px; z-index: 2;
 }
 label.logo{
-	color: white;line-height: 60px;font-size: 35px;padding: 0px 100px;font-weight: bold;
+	color: white;line-height: 60px;font-size: 35px;padding: 0px 100px;font-weight: bold; z-index: 2;
 }
 nav ul{
-	float: right;margin-right: 60px;
+	float: right;margin-right: 60px; z-index: 2;
 }
 nav ul li{
-	display: inline-block;line-height: 60px;margin: 0px 65px;
+	display: inline-block;line-height: 60px;margin: 0px 65px; z-index: 2;
 }
 nav ul li a{
-	color: white;font-size: 25px;padding: 10px;border-radius: 4px;
+	color: white;font-size: 25px;padding: 10px;border-radius: 4px; z-index: 2;
 }
 a.active,a:hover{
 	background-color: #1b9bff; transition: .2s;color: #2c3e50; 
@@ -29,4 +29,4 @@ a.active,a:hover{
 #check{
 	display: none;
 }
-
+.add{display: flex;}

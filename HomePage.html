@@ -6,8 +6,7 @@
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<title>MyTicket</title>
 	<link rel="stylesheet" type="text/css" href="homestyle.css">
-	<link rel="stylesheet" type="text/css" href="homepageflex.css">
-    
+	<link rel="stylesheet" type="text/css" href="homepageflex.css">   
 </head>
 <body>
 
@@ -24,7 +23,8 @@
 			<!--<li><a  href="Games.html">GAMES</a></li>-->
 		</ul>	
 	</nav>
-	
+
+
 	<div id="homeContainer">
 
 
@@ -37,6 +37,7 @@
             
             	    <div class="trendingMoviePoster"><img src="moviePosters/deadpool.jfif" style="width:200px;height:250px;"></div>
                     <p class="movieinfo">
+
                 	    <div class="description">Deadpool 2</div>
                 	    <div class="description">Rating 79%</div>
                 	    <div class="description">Genre : Action Drama Romance</div>
@@ -96,111 +97,133 @@
 
 		
 		<div class="mainSection">
-			<p class="TopAction"> ACTION</p>	
+            <!--bfndjkasbdjkshbajdkb-->
+
+    <div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="moviePosters/homead/lauv.jpg" style="width:1000px;height: 300px; justify-content: center;">
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="moviePosters/homead/meta.jfif" style="width:1000px;height: 300px;">
+ 
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="moviePosters/homead/save10.png" style="width:1000px;height: 300px;">
+ 
+</div>
+<div class="mySlides fade">
+  
+  <img src="moviePosters/homead/comedy.jfif" style="width:1000px;height: 300px;">
+ 
+</div>
+<div class="mySlides fade">
+  
+  <img src="moviePosters/homead/discount1.png" style="width:1000px;height: 300px;">
+ 
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+			<h4 class="TopAction"> ACTION</h4>	
 			<div class="action">
-			
 
-				     <div class="ActionMoviePoster"><img src="moviePosters/deadpool.jfif" style="width:200px;height:250px;"> <p>DEADPOOL</p></div>
+                <div class="ActionMoviePoster"><img src="moviePosters/deadpool.jfif" style="width:200px;height:250px;"> <p class="nm"> <a href="Moviepage1.html">DEADPOOL </a></p></div>
                      
 
-                    <div class="ActionMoviePoster"><img src="moviePosters/endgame.jfif" style="width:200px;height:250px;"> <p>AVENGERS ENDGAME</p></div>
+
+                    <div class="ActionMoviePoster"><img src="moviePosters/endgame.jfif" style="width:200px;height:250px;"> <p class="nm"> 
+                        <a href="Moviepage2.html">AVENGERS ENDGAME</a></p></div>
                     
 
-                    <div class="ActionMoviePoster"><img src="moviePosters/joker.jfif" style="width:200px;height:250px;"> <p>JOKER</p></div>
+                    <div class="ActionMoviePoster"><img src="moviePosters/joker.jfif" style="width:200px;height:250px;"> <p class="nm">
+                     <a href="Moviepage3.html">JOKER</a></p></div>
                     
 
-                    <div class="ActionMoviePoster"><img src="moviePosters/us.jfif" style="width:200px;height:250px;"><p>US</p></div>
+                    <div class="ActionMoviePoster"><img src="moviePosters/us.jfif" style="width:200px;height:250px;"><p class="nm"> 
+                        <a href="Moviepage4.html">US</a></p></div>
+                    </div>
+		
+		<h4 class ="TopAdventure">ADVENTURE</h4>	
+
+						<div class="adventure">
+				
+              <div class="adventureMoviePoster"><img src="moviePosters/theGreatHack.jfif" style="width:200px;height:250px;"><p class="nm"> 
+                        <a href="Moviepage5.html">THE GREAT HACK</a></p></div>
                    
 
-                    <div class="ActionMoviePoster"><img src="moviePosters/theGreatHack.jfif" style="width:200px;height:250px;"><p>THE GREAT HACK</p></div>
-                   
-
-                    <div class="ActionMoviePoster"><img src="moviePosters/spiderman.jfif" style="width:200px;height:250px;"><p>SPIDERMAN INTO THE SPIDER VERSE</p></div>
+                    <div class="adventureMoviePoster"><img src="moviePosters/spiderman.jfif" style="width:200px;height:250px;"><p class="nm"> 
+                        <a href="Moviepage6.html">SPIDERMAN FAR..</a></p></div>
                     
 
-                    <div class="ActionMoviePoster"><img src="moviePosters/blackPanther.jfif" style="width:200px;height:250px;"><p>BLACK PANTHER</p></div>
+                    <div class="adventureMoviePoster"><img src="moviePosters/blackPanther.jfif" style="width:200px;height:250px;"><p class="nm"> 
+                        <a href="Moviepage7.html">BLACK PANTHER</a></p></div>
                    
 
-                    <div class="ActionMoviePoster"><img src="moviePosters/Gaurdiansofgalaxy.jfif" style="width:200px;height:250px;"><p>GAURDIANS OF THE GALAXY</p></div>
+                    <div class="adventureMoviePoster"><img src="moviePosters/Gaurdiansofgalaxy.jfif" style="width:200px;height:250px;"><p class="nm"> 
+                        <a href="Moviepage8.html">GUARDIANS OF T..</a></p></div>
                   
 				
 			</div>
+      <div class="add">
+        <img src="moviePosters/homead/discount1.png" style="margin-left: 25%; margin-top: 20px;">
+        <img src="moviePosters/homead/save10.png" style="margin-left: 8%; margin-top: 20px;">
+      </div>
+
+
+		
+				
+			</div>
+		</div>
+		
+
+		
 	
-
-		<p class ="TopAdventure">ADVENTURE</p>	
-
-						<div class="adventure">
-				
-				     <div class="adventureMoviePoster"><img src="moviePosters/deadpool.jfif" style="width:200px;height:250px;"> <p>DEADPOOL</p></div>
-                     
-
-                    <div class="adventureMoviePoster"><img src="moviePosters/endgame.jfif" style="width:200px;height:250px;"> <p>AVENGERS ENDGAME</p></div>
-                    
-
-                    <div class="adventureMoviePoster"><img src="moviePosters/joker.jfif" style="width:200px;height:250px;"> <p>JOKER</p></div>
-                    
-
-                    <div class="adventureMoviePoster"><img src="moviePosters/us.jfif" style="width:200px;height:250px;"><p>US</p></div>
-                   
-
-                    <div class="adventureMoviePoster"><img src="moviePosters/theGreatHack.jfif" style="width:200px;height:250px;"><p>THE GREAT HACK</p></div>
-                   
-
-                    <div class="adventureMoviePoster"><img src="moviePosters/spiderman.jfif" style="width:200px;height:250px;"><p>SPIDERMAN INTO ...</p></div>
-                    
-
-                    <div class="adventureMoviePoster"><img src="moviePosters/blackPanther.jfif" style="width:200px;height:250px;"><p>BLACK PANTHER</p></div>
-                   
-
-                    <div class="adventureMoviePoster"><img src="moviePosters/Gaurdiansofgalaxy.jfif" style="width:200px;height:250px;"><p>GAURDIANS OF THE GALAXY</p></div>
-                  
-				
-			</div>
-
-					<p class ="TopDrama">DRAMA</p>	
-
-						<div class="adventure">
-				
-				     <div class="adventureMoviePoster"><img src="moviePosters/deadpool.jfif" style="width:200px;height:250px;"> <p>DEADPOOL</p></div>
-                     
-
-                    <div class="adventureMoviePoster"><img src="moviePosters/endgame.jfif" style="width:200px;height:250px;"> <p>AVENGERS ENDGAME</p></div>
-                    
-
-                    <div class="adventureMoviePoster"><img src="moviePosters/joker.jfif" style="width:200px;height:250px;"> <p>JOKER</p></div>
-                    
-
-                    <div class="adventureMoviePoster"><img src="moviePosters/us.jfif" style="width:200px;height:250px;"><p>US</p></div>
-                   
-
-                    <div class="adventureMoviePoster"><img src="moviePosters/theGreatHack.jfif" style="width:200px;height:250px;"><p>THE GREAT HACK</p></div>
-                   
-
-                    <div class="adventureMoviePoster"><img src="moviePosters/spiderman.jfif" style="width:200px;height:250px;"><p>SPIDERMAN INTO ...</p></div>
-                    
-
-                    <div class="adventureMoviePoster"><img src="moviePosters/blackPanther.jfif" style="width:200px;height:250px;"><p>BLACK PANTHER</p></div>
-                   
-
-                    <div class="adventureMoviePoster"><img src="moviePosters/Gaurdiansofgalaxy.jfif" style="width:200px;height:250px;"><p>GAURDIANS OF THE GALAXY</p></div>
-                  
-				
-			</div>
-
-
-
-
-
-
-		</div>
-		<div class="footer">
-		
-
-
-		</div>
-
-		
-	</div>
 
 
 

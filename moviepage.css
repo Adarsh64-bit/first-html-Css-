@@ -1,10 +1,64 @@
 
        
-.movInfo{background-image: url("moviePosters/blur.jfif");background-repeat: no-repeat;background-size: 100%;color: white; font-family: sans-serif;letter-spacing: 1px;padding: 55px 0px 10px 0px; padding-left: 25%}
+.movInfo{background-image: url("moviePosters/blur.jfif");background-repeat: no-repeat;background-size: 100%;
+         color: white; font-family: sans-serif;letter-spacing: 1px;padding: 55px 0px 10px 0px; padding-left: 25%}
 .movTitle{font-size: 25px;font-weight: bold;}
 .lang, .genre, .releaseDate, .time{font-size: 15px;margin-top: 3px;}
 
-img {position: absolute; left: 130px; top: 110px; z-index: 1; width: 220px;height: 260px;}
+.MainPoster > img {position: absolute; left: 150px; top: 100px; z-index: 1; width: 220px;height: 260px;}
 .rating{margin-left: 25%;margin-top: 25px;font-size: 20px; display: inline-flex;color: white;letter-spacing: 1px;}
 .rate{color: white;padding-right: 15px;letter-spacing: 1px;}
 .checked {color: orange;}
+.mbody{display: flex;margin-top: 90px;}
+.advert > img {width:220px;height:500px; margin-left: 150px;}
+.desc, .cast{color: white; font-family: sans-serif;letter-spacing: 1px;margin-left: 10px;font-size: 19px;padding-bottom: 15px;
+             padding-right:150px;margin-top: 30px;}
+ .castimg > img {padding: 0px 20px 5px 10px;}
+ .castimg{margin-left: 45px;} 
+ .names{display: flex;color: white; font-family: sans-serif;letter-spacing: 1px;margin-left: 50px;}
+#a1{padding-left: 45px;}         
+#a2{padding-left: 75px;}         
+#a3{padding-left: 50px;} 
+#a4{padding-left: 48px;}
+#a5{padding-left: 85px;}
+
+#a6{padding-left: 30px;}         
+#a7{padding-left: 52px;}         
+#a8{padding-left: 65px;} 
+#a9{padding-left: 55px;}
+#a10{padding-left: 25px;}
+
+#a11{padding-left: 45px;}         
+#a12{padding-left: 75px;}         
+#a13{padding-left: 50px;} 
+#a14{padding-left: 48px;}
+#a15{padding-left: 85px;}
+
+#a16{padding-left: 15px;}         
+#a17{padding-left: 60px;}         
+#a18{padding-left: 100px;} 
+#a19{padding-left: 85px;}
+#a20{padding-left: 60px;}
+
+#a21{padding-left: 35px;}         
+#a22{padding-left: 67px;}         
+#a23{padding-left: 70px;} 
+#a24{padding-left: 100px;}
+#a25{padding-left: 120px;}
+
+#a26{padding-left: 25px;}         
+#a27{padding-left: 90px;}         
+#a28{padding-left: 84px;} 
+#a29{padding-left: 38px;}
+#a30{padding-left: 35px;}
+
+#a31{padding-left: 0px;}         
+#a32{padding-left: 35px;}         
+#a33{padding-left: 50px;} 
+#a34{padding-left: 48px;}
+#a35{padding-left: 55px;}
+
+.bkbtn{margin-top: 70px;margin-left: 370px;}
+.bkbtn a{color: white;font-size: 25px;padding: 10px;border-radius: 4px;}
+a:hover{background-color: white; transition: .2.5s;color: #2c3e50;} 
+

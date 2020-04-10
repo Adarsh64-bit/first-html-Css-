@@ -9,3 +9,13 @@
 .bookButton a{color: white;font-size: 25px;padding: 10px;border-radius: 4px;}
 .movieTitle{ color: #c0c1c2; font-weight: bold;}	
 a:hover{background-color: white; transition: .2.5s;color: #2c3e50;} 
+.evnt{display:flex; flex-direction: column;text-align: center;}
+.bkbtn{text-align:center; margin-top: 15px; margin-bottom: 10px;}
+.bkbtn a{color: white;font-size: 25px;padding: 10px;border-radius: 4px;}
+	
+a:hover{background-color: white; transition: .2.5s;color: #2c3e50;}
+.eventContainer{display: flex;flex-direction: column;padding: 10px;
+	            margin:0px 15px; }
+.eventContainer > div {background-image: linear-gradient(to right,#1b9bff,#1b9bff,#0082e6,#1080e8,#1b9bff,#1b9bff);margin-bottom:25px;
+	                   display: flex;padding: 10px 10px;border-radius: 4px;margin-left: 20%;margin-right: 10%}
+.discount > img{position: fixed;left: 3%;width:220px;top: 100px;}	                   
